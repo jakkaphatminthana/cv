@@ -1,0 +1,140 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.WhitePaper {
+    margin: 20% 0;
+}
+
+.bgHead {
+    background: url("https://c.wallhere.com/photos/60/d5/minimalism_digital_art_simple-109808.png!d") 
+        repeat fixed 100%;
+}
+
+.bgHead-text {
+    padding-top: 13%;
+    padding-bottom: 13%;
+}
+
+.bgHead-text-h1{
+    margin-top: -3%;
+    text-align: center;
+    font-size: 300%;
+    color: #FFF;
+    letter-spacing: 3px;
+}
+
+.bgHead-text-h3{
+    margin-bottom: 3%;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 120%;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+.picture-profile{
+    margin-top: -29%;
+    text-align: center;
+}
+
+.me{
+    width: 17%;
+    border-radius: 50%;
+    padding: 0px;
+    border: 8px solid white;
+}
+
+.profile-content{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 4%;
+}
+
+.Head-Content{
+    text-align: center;
+    font-size: 180%;
+    position: relative;
+    color: rgb(6,60,97);
+    letter-spacing: 3px;
+}
+
+.Head-Content:before{
+    content: "";
+    display: block;
+    width: 35%;
+    height: 3px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.Head-Content:after {
+    content: "";
+    display: block;
+    width: 35%;
+    height: 3px;
+    background: black;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.Content > div{
+    padding-top: 3%;
+    font-size: 120%;
+    /*border: 1px solid black;*/
+    width: 35%;
+    height: 35%;
+}
+
+.Content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Experience{
+    padding-top: 10%;
+    font-size: 160%;
+    position: relative;
+    color: rgb(6,60,97);
+    letter-spacing: 3px;
+}
+
+.line-1{
+    content: "";
+    height: 6px;
+    width: 10%;
+    margin-top: 1%;
+    background: rgb(18, 154, 245);
+    display: block;
+    position: absolute;
+
+}
+
+.margin-text{
+    margin-top: 3%;
+}
+
+.Skill{
+    padding-top: 5%;
+    font-size: 160%;
+    position: relative;
+    color: rgb(6,60,97);
+    letter-spacing: 3px;
+}
+
+.line-2{
+    content: "";
+    height: 6px;
+    width: 5%;
+    margin-top: 1%;
+    background: rgb(18, 154, 245);
+    display: block;
+    position: absolute;
+
+}
